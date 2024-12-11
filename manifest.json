@@ -1,0 +1,14 @@
+{
+  "project": "Quarto Project Example",
+  "type": "book",
+  "title": "Hello Quarto",
+  "author": "Tricky Holley",
+  "version": "1.0.0",
+  "output": {
+    "html": {
+      "self-contained": true
+    },
+    "pdf": false
+  },
+  "dependencies": []
+}
