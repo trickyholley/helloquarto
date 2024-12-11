@@ -1,6 +1,6 @@
-## Hello Quarto from Tricky!
+## Hello Quarto from Tricky! 💛
 
-Apparently Quarto is a multi-language publishing system that is popular with data scientists! Who'da thunk? This basic page is just me trying out Posit's Connect Cloud. README is a copy of the QMD file.
+Apparently Quarto is a multi-language publishing system that is popular with data scientists! Who'da thunk? This basic page is just me trying out Posit's Connect Cloud.
 
 ```r
 addressee <- "Quarto"
