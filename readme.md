@@ -8,4 +8,6 @@ addressor <- "Tricky"
 cat("Hello", addressee, "from", paste0(addressor, "!"))
 ```
 
+`Hello Quarto from Tricky!`
+
 [Check out my GitHub!](https://www.github.com/patrickholley)
