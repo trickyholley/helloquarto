@@ -3,7 +3,7 @@
   "type": "book",
   "title": "Hello Quarto",
   "author": "Tricky Holley",
-  "version": "1.0.0",
+  "version": 1,
   "output": {
     "html": {
       "self-contained": true
