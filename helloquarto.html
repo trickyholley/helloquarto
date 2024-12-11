@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>helloquarto</title>
+<title>Hello Quarto!</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -79,7 +79,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">helloquarto</h1>
+<h1 class="title">Hello Quarto!</h1>
 </div>
 
 
@@ -96,8 +96,73 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="hello-quarto-from-tricky" class="level2">
-<h2 class="anchored" data-anchor-id="hello-quarto-from-tricky">Hello Quarto from Tricky!</h2>
+<div class="heartbeat-container">
+<div class="golden-heart">
+
+</div>
+</div>
+<style>
+  /* Container for centering the heart */
+  .heartbeat-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #ffffff; /* Optional background */
+  }
+
+  /* Heart element */
+  .golden-heart {
+    position: relative;
+    width: 50px;
+    height: 45px; /* Adjust to keep proportions */
+    background-color: #ffd700; /* Golden color */
+    transform: rotate(-45deg);
+    animation: heartbeat 1.5s infinite;
+  }
+
+  /* Rounded top-left corner */
+  .golden-heart:before,
+  .golden-heart:after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 45px; /* Adjust to keep proportions */
+    background-color: #ffd700;
+    border-radius: 50%;
+  }
+
+  /* Top-left corner */
+  .golden-heart:before {
+    top: -25px; /* Adjust based on new size */
+    left: 0;
+  }
+
+  /* Top-right corner */
+  .golden-heart:after {
+    top: 0;
+    left: 25px; /* Adjust based on new size */
+  }
+
+  /* Heartbeat animation */
+  @keyframes heartbeat {
+    0% {
+      transform: scale(1) rotate(-45deg);
+    }
+    25% {
+      transform: scale(1.2) rotate(-45deg);
+    }
+    50% {
+      transform: scale(1) rotate(-45deg);
+    }
+    75% {
+      transform: scale(1.2) rotate(-45deg);
+    }
+    100% {
+      transform: scale(1) rotate(-45deg);
+    }
+  }
+</style>
 <p>Apparently Quarto is a multi-language publishing system that is popular with data scientists! Who’da thunk? This basic page is just me trying out Posit’s Connect Cloud.</p>
 <div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>addressee <span class="ot">&lt;-</span> <span class="st">"Quarto"</span></span>
@@ -108,7 +173,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p><a href="https://github.com/patrickholley" target="_blank">Check out my GitHub!</a></p>
-</section>
 
 </main>
 <!-- /main column -->
