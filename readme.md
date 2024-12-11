@@ -10,4 +10,4 @@ cat("Hello", addressee, "from", paste0(addressor, "!"))
 
 `Hello Quarto from Tricky!`
 
-[Check out my GitHub!](https://www.github.com/patrickholley){target="_blank"}
+<a href="[https://example.com](https://www.github.com/patrickholley)" target="_blank">Check out my GitHub!</a>
