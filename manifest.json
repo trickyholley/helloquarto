@@ -4,6 +4,7 @@
   "title": "Hello Quarto",
   "author": "Tricky Holley",
   "version": 1,
+  "appmode": "static",
   "output": {
     "html": {
       "self-contained": true
