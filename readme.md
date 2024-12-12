@@ -10,4 +10,4 @@ cat("Hello", addressee, "from", paste0(addressor, "!"))
 
 `Hello Quarto from Tricky!`
 
-[Check out my GitHub!](https://www.github.com/patrickholley)
+[View the Connect Cloud page](https://0193b7b6-d3e2-f6f4-8cc9-e73d4fc2bd89.share.connect.posit.cloud/)
