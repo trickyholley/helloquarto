@@ -1,8 +1,4 @@
 project:
   title: "helloquarto"
-  input-files:
-    - ../helloquarto.qmd
-  files:
-    - ../helloquarto.qmd
 
 editor: visual
