@@ -7,7 +7,7 @@ title: "Hello Quarto!"
 :::
 ::::
 
-```{=html
+```{=html}
 <style>
   /* Container for centering the heart */
   .heartbeat-container {
